@@ -1,3 +1,5 @@
 function Paragraph({ size, color, children}) {
-  const style
+  const style = {
+    fontSize:size,
+  }
 }
