@@ -2,6 +2,8 @@
 import './App.css';
 function App() {
   const  example1 = ["pear", "yellow", "small"];
+
+  const [name, color,]
   return (
     <div className="App">
       This {example1[0]} is {example1[1]} and {example1[2]}.
