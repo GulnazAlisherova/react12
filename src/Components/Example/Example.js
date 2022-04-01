@@ -8,6 +8,6 @@ function Example()  {
  return (
    <div className="Example">
      {fisrtName}<br/>
-     <input type="text"
+     <input type="text" onChange={onInputChange}/>
    </div>
  )
