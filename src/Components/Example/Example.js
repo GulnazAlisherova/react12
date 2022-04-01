@@ -1,3 +1,3 @@
 function Example(){
-  const buttonCallback
+  const buttonCallback = (event) =>
 }
