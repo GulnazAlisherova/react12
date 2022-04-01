@@ -5,8 +5,9 @@ function App() {
   const example2 = ["toyota", "camry", "black", "expensive"];
   const example3 = {name: "pear", color: "yellow", size: "small"};
 
-  const [name, color, size] = example1
-  const [kind, mark, colorr , price] = example2
+  // const [name, color, size] = example1
+  // const [kind, mark, colorr , price] = example2
+  const {name, color, size } = example3
   return (
     <div className="App">
       This {name} is {color} and {size}.
