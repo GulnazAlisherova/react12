@@ -8,5 +8,6 @@ function Example()  {
  return (
    <div className="Example">
      {fisrtName}<br/>
+     <input
    </div>
  )
