@@ -6,5 +6,7 @@ function Example()  {
 }
 
  return (
-   <div className
+   <div className="Example">
+     {fisrtName}<br/>
+   </div>
  )
