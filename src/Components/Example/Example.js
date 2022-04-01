@@ -8,6 +8,7 @@ function Example() {
 
 return (
   <div className="Example">
-    <input
+    <input type="text"/>
+    <button
   </div>
 )
