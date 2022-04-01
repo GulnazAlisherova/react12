@@ -3,7 +3,9 @@ function Example()  {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
 
-  const  onFirstNameChange = (event) =>
+  const  onFirstNameChange = (event) => {
+    setFirstName(event.target.value)
+  }
 }
 
  return (
