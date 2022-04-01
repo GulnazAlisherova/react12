@@ -3,5 +3,5 @@ function Paragraph({ size, color, children}) {
     fontSize: size,
     color: color
   };
-  return
+  return <p style={style}></p>
 }
