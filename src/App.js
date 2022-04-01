@@ -1,4 +1,4 @@
-import
+import 
 function App() {
   const  example1 = ["pear", "yellow", "small"];
   const example2 = ["toyota", "camry", "black", "expensive"];
