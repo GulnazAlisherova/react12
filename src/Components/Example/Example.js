@@ -3,7 +3,7 @@ function Example()  {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
 
-  const 
+  const  onFirstNameChange = 
 }
 
  return (
