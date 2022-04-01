@@ -1,3 +1,3 @@
-function Paragraph(props) {
-  const { size, color, }
+function Paragraph({ size, color, children}) {
+  const style
 }
