@@ -2,5 +2,7 @@ import { useState } from "react";
 function Example()  {
   const [fisrtName, setFirstName] = useState("");
 
-  const 
+  const onInputName(event.target.value);
 }
+
+ return 
