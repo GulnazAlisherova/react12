@@ -14,6 +14,7 @@ function Example()  {
  return (
    <div className="Example">
      {fisrtName} {lastName}<br/>
+     <label></label>
      <input type="text" onChange={onInputChange}/>
    </div>
  )
