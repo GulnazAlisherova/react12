@@ -1,22 +1,31 @@
 import { useState } from "react";
-function Example()  {
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
 
-  const  onFirstNameChange = (event) => {
-    setFirstName(event.target.value);
-  }
-  const  onLastNameChange = (event) => {
-    setLastName(event.target.value);
-  }
+function Example() {
+    const [firstName, setFirstName] = useState("");
+    const [lastName, setLastName] = useState("");
+
+    const onFirstNameChange = (event) => {
+        setFirstName(event.target.value);
+    }
+    const onLastNameChange = (event) => {
+        setLastName(event.target.value);
+    }
+
+
+
+    return ( 
+        <div className="Example">
+            <label>
+                A:
+                <input type="text" onChange={onFirstNameChange} />
+            </label><br />
+            <label>
+                B:
+                <input type="text" onChange={onLastNameChange} />
+            </label><br />
+        A + B = { Number(firstName) + Number(lastName) }
+        </div>
+     );
 }
 
- return (
-   <div className="Example">
-     {fisrtName} {lastName}<br/>
-     <label></label>
-     <input type="text" onChange={onInputChange}/>
-   </div>
- )
- 
 export default Example;
