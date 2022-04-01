@@ -11,4 +11,5 @@ return (
     <input type="text"/>
     <button onClick={buttonCallback}>Example</button>
   </div>
-)
+);
+export default Example;
