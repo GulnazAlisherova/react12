@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       This {name} is {color} and {size}.
+      This toyota camry is expensive and black.
     </div>
   );
 }
