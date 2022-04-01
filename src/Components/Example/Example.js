@@ -7,5 +7,7 @@ function Example() {
 //change
 
 return (
-  <div className=""
+  <div className="Example">
+    <input
+  </div>
 )
