@@ -11,3 +11,5 @@ function Example()  {
      <input type="text" onChange={onInputChange}/>
    </div>
  )
+ 
+export default Example;
