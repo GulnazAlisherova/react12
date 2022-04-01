@@ -13,7 +13,7 @@ function Example()  {
 
  return (
    <div className="Example">
-     {fisrtName}<br/>
+     {fisrtName} {lastName}<br/>
      <input type="text" onChange={onInputChange}/>
    </div>
  )
