@@ -9,6 +9,6 @@ function Example() {
 return (
   <div className="Example">
     <input type="text"/>
-    <button onClick={buttonCallBack}></button>
+    <button onClick={buttonCallback}>Example</button>
   </div>
 )
