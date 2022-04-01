@@ -1,3 +1,3 @@
 function Paragraph(props) {
-  
+  const {}
 }
